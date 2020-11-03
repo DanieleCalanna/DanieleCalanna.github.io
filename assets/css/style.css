@@ -250,6 +250,10 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/bg-test3.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
+
+  background-attachment: fixed;
+  background-position: relative;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 992px) {
@@ -1168,4 +1172,22 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+.img-profile {
+  border-radius: 10px;
+}
+
+.img-portfolio{
+  border-radius: 22px;
+  -webkit-transform: scale(0.96);
+	transform: scale(0.96);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img-portfolio:hover {
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }

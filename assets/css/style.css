@@ -1191,3 +1191,13 @@ section {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+.company{
+  display: flex;
+  align-items: stretch;
+}
+
+.company p
+{
+  margin-left: 12px;
+}
